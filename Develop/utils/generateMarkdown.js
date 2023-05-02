@@ -1,4 +1,4 @@
- //a function that returns a license badge based on which license is passed in
+//a function that returns a license badge based on which license is passed in
 // If there is no license, returns an empty string
 function renderLicenseBadge(license) {
   if (!license) {
@@ -59,6 +59,7 @@ ${projectTitle} is licensed under the [${license}](${licenseLink}) license. ${li
 function generateMarkdown(data) {
   const { title, description, installation, usage, license } = data;
   const licenseSection = renderLicenseSection(license, title);
+  const licenseBadge = renderLicenseBadge(license);
 
   return `# ${title}
 

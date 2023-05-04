@@ -17,6 +17,8 @@ npm i inquirer@8.2.4
 ## Usage
 After cloning the repo, make sure you are in the Develop directory before running the command "node index.js". After answering all questions, your README.md will be generated and ready for use. You can watch this https://drive.google.com/file/d/1KrvG7B6yBANM9Ch5ngHrtROzfcLqOcHa/view  that will demonstrate the functionality of the application.
 
+## Sample README created by program
+![image](https://user-images.githubusercontent.com/116929120/236083304-a8c0a289-6a98-434a-918f-49248c44f5c0.png)
 
 ## License
   This application is licensed by the MIT license.
